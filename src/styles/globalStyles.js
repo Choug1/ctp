@@ -14,8 +14,8 @@ export const Screen = styled.div`
 
 // Used for providing space between components
 export const SpacerXSmall = styled.div`
-  height: 8px;
-  width: 8px;
+  height: 50px;
+  width: 15px;
 `;
 
 // Used for providing space between components
@@ -33,7 +33,7 @@ export const SpacerMedium = styled.div`
 // Used for providing space between components
 export const SpacerLarge = styled.div`
   height: 32px;
-  width: 32px;
+  width: 160px;
 `;
 
 // Used for providing a wrapper around a component
@@ -52,20 +52,20 @@ export const Container = styled.div`
 
 export const TextTitle = styled.p`
   color: var(--primary-text);
-  font-size: 22px;
+  font-size: 40px;
   font-weight: 500;
   line-height: 1.6;
 `;
 
 export const TextSubTitle = styled.p`
   color: var(--primary-text);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
 `;
 
 export const TextDescription = styled.p`
   color: var(--primary-text);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
 `;
 
